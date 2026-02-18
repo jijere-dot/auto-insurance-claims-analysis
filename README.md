@@ -1,103 +1,95 @@
-Insurance Claims Analytics Dashboard (Power BI)
-Business Context
+# Insurance Claims Analytics Dashboard (Power BI)
+
+## Business Context
 
 An insurance company aims to better understand claim patterns, customer demographics, and vehicle usage behavior in order to improve risk assessment and pricing strategies.
 
 This Power BI dashboard analyzes auto insurance claims data to uncover trends in claim frequency, claim amount, customer characteristics, and vehicle usage.
 
-Objective
+---
+
+## Objective
 
 The goal of this analysis is to:
 
-Identify high-risk demographic segments
+- Identify high-risk demographic segments  
+- Understand claim frequency patterns  
+- Analyze total and average claim amounts  
+- Evaluate claim trends by car type and usage  
+- Support data-driven underwriting and pricing decisions  
 
-Understand claim frequency patterns
+---
 
-Analyze total and average claim amounts
+## Key KPIs
 
-Evaluate claim trends by car type and usage
+- **Total Number of Claims:** 6,040  
+- **Total Claim Amount:** $11M  
+- **Average Claim Amount:** $1.48K  
+- **Average Claim Frequency:** 0.79  
+- **Average Car Age:** 7.89 years  
+- **Average Customer Age:** 71.75 years  
+- **Average Home Valuation:** $149.93K  
 
-Support data-driven underwriting and pricing decisions
+---
 
-Key KPIs
+## Dashboard Overview
 
-Total Number of Claims: 6,040
+The report includes:
 
-Total Claim Amount: $11M
+### 1️⃣ Executive KPI Summary
+- Total claims
+- Total claim amount
+- Average claim amount
+- Customer and vehicle metrics
 
-Average Claim Amount: $1.48K
+### 2️⃣ Claim Analysis by Age Group
+- Total and average claim amount by age group
+- Identification of high-risk age segments
 
-Average Claim Frequency: 0.79
+### 3️⃣ Vehicle Usage Insights
+- Claim distribution by car type (SUV, Pickup, Minivan, etc.)
+- Commercial vs Private vehicle usage comparison
 
-Average Customer Age: 71.75
+### 4️⃣ Demographic Risk Breakdown
+- Claim amount by:
+  - Education
+  - Gender
+  - Occupation
+  - Car Type
 
-Average Car Age: 7.89 years
+### 5️⃣ Interactive Filters
+- Age Group  
+- Education  
+- Gender  
+- Occupation  
+- Car Type  
 
-Key Insights
-Claim Distribution by Car Use
+---
 
-Private vehicles account for ~66% of claims
+## Tools Used
 
-Commercial vehicles represent ~34%
+- **Power BI**
+- Data Modeling
+- DAX Measures
+- Interactive Dashboard Design
 
-Claims by Age Group
+---
 
-Highest total claim amount: Age group 60–69
+## Dashboard Preview
 
-Claim severity varies significantly across age groups
+![Overview](images/dashboard_overview.png)
 
-Claims by Car Type
+## Business Impact
 
-SUVs generate the highest number of claims
+This dashboard enables senior management to:
 
-Pickup and Minivan follow closely
+- Detect high-risk customer segments  
+- Adjust pricing models based on demographic patterns  
+- Improve underwriting decisions  
+- Optimize risk management strategies  
 
-Demographic Impact
+---
 
-Education level and occupation show variation in claim behavior
+## File Included
 
-Certain professional segments exhibit higher average claim amounts
-
-Dashboard Features
-
-KPI Cards for quick overview
-
-Dual-axis charts for claim severity analysis
-
-Pie chart for car usage distribution
-
-Bar charts for claim frequency
-
-Decomposition Tree for deep drill-down analysis
-
-Interactive slicers for Age Group, Education, Gender, Occupation, and Car Type
-
-Tools Used
-
-Power BI
-
-DAX (Data Analysis Expressions)
-
-Data Modeling
-
-Interactive Filtering
-
-Advanced Visualizations (Decomposition Tree)
-
-Files
-
-Insurance_Claims_Dashboard.pbix – Full interactive report
-
-Screenshots of report pages
-
-Business Impact
-
-This dashboard enables insurance leadership to:
-
-Identify high-risk customer segments
-
-Optimize premium pricing strategies
-
-Improve risk modeling
-
-Reduce financial exposure
+- `Car Insurance Claim Analysis.pbix` – Power BI report file  
